@@ -1,0 +1,24 @@
+{
+    "current_doc_summarizer": {
+        "model_name": "text-davinci-003",
+        "api_version": "2023-05-15",
+        "temperature": 0.0,
+        "max_tokens": 200,
+        "prompt_template": "summarize the following text: {input_text}"
+    },
+    "current_update_summarizer": {
+        "model_name": "text-davinci-003",
+        "api_version": "2023-05-15",
+        "temperature": 0.0,
+        "max_tokens": 200,
+        "prompt_template": "summarize the following text: {input_text}"
+    },
+    "version_1_summarizer": {
+        "model_name": "text-davinci-003",
+        "api_version": "2023-05-15",
+        "temperature": 0.0,
+        "max_tokens": 200,
+        "prompt_template": "Summarize the key points of the text provided between the []. The summary MUST be concise and shorter than {max_words} words. Also, the output should be in the following structure: \n\nTitle: <the title>\n\n<the summary>.  \n----------------------\nThe text to summarize: [{input_text}]\n\nThe concise summary:\n",
+        "max_word_ratio": 0.6
+    }
+}

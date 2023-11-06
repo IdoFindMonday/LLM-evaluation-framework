@@ -1,0 +1,27 @@
+{
+    "current_rephraser": {
+        "model_name": "gpt-3-5-turbo",
+        "api_version": "2023-05-15",
+        "temperature": 0.7,
+        "max_tokens": 256,
+        "system_prompt_template": "",
+        "user_prompt_template": "{language_input}. Paraphrase the following text into a more {style} style, return numbered list of strings contains 3 new paraphrased texts:\n\n  {input_text}",
+        "top_p": 1,
+        "n": 1,
+        "localization_prompt_template": "Consider the language used in the following input text: {input_text}. Please provide your response in the same language as the one used in this input text. Your response may involve a variety of data types, such as JSON, XML, HTML, and other programming or markup formats. It's important to note, though, that any code or markup language should remain untouched during translation; only translate plain text elements",
+        "style": "casual"
+    },
+    "version_2_rephraser": {
+        "model_name": "gpt-3-5-turbo",
+        "api_version": "2023-05-15",
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "system_prompt_template": "You are a professional assistant. Using your deep linguistic understanding and knowledge, Rephrase the text provided by the user while retaining the core ideas, crucial details, and significant context of it. Please fix any grammar mistakes and typos. {language_input}. The rephrased style should be {style}. Return numbered list of strings containing {n_paraphrase} new paraphrased texts.",
+        "user_prompt_template": "Please rephrase the following text: {input_text}",
+        "top_p": 1,
+        "n": 1,
+        "localization_prompt_template": "Consider the language used in the following input text: {input_text}. Please provide your response in the same language as the one used in this input text. Your response may involve a variety of data types, such as JSON, XML, HTML, and other programming or markup formats. It's important to note, though, that any code or markup language should remain untouched during translation; only translate plain text elements",
+        "style": "neutral",
+        "n_paraphrase": 3
+    }
+}

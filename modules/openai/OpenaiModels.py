@@ -90,27 +90,6 @@ class OpenaiChatCompletionBase:
 
         return response
 
-    def call_llm(self, input_text):
-        user_prompt = self.user_prompt_template.format(**{'input_text': input_text})
-        messages = [
-            {"role": "system", "content": self.system_prompt_template},
-            {"role": "user", "content": user_prompt}
-        ]
-        response = self._get_response(messages)
-        output_text = response["choices"][0]["message"]["content"].strip()
-        return output_text
-
-    def call_llm_with_res(self, input_text):
-        user_prompt = self.user_prompt_template.format(**{'input_text': input_text})
-
-        messages = [
-            {"role": "system", "content": self.system_prompt_template},
-            {"role": "user", "content": user_prompt}
-        ]
-        response = self._get_response(messages)
-        output_text = response["choices"][0]["message"]["content"].strip()
-        return output_text, response
-
     def get_config(self):
         return self.__dict__
 
@@ -121,19 +100,6 @@ class OpenaiChatCompletionWordLimit(OpenaiChatCompletionBase):
         super().__init__(model_name, api_version, temperature, max_tokens, system_prompt_template, user_prompt_template)
         self.max_word_ratio = max_word_ratio
 
-    def _get_response(self, messages):
-        response = openai.ChatCompletion.create(
-            engine=self.model_name,
-            api_version=self.api_version,
-            messages=messages,
-            temperature=self.temperature,
-            max_tokens=self.max_tokens,
-            top_p=self.top_p,
-            n=self.n
-        )
-
-        return response
-
     def call_llm(self, input_text):
         input_text_word_count = len(input_text.split())
         max_words = int(round(input_text_word_count * self.max_word_ratio))
@@ -160,5 +126,82 @@ class OpenaiChatCompletionWordLimit(OpenaiChatCompletionBase):
         output_text = response["choices"][0]["message"]["content"].strip()
         return output_text, response
 
-    def get_config(self):
-        return self.__dict__
+
+class OpenaiChatCompletionRephraser(OpenaiChatCompletionBase):
+    def __init__(self, model_name="gpt-3-5-turbo", api_version="2023-05-15", temperature=0.0, max_tokens=200,
+                 system_prompt_template="", user_prompt_template="", localization_prompt_template="", style='casual',
+                 n_paraphrase=1):
+        super().__init__(model_name, api_version, temperature, max_tokens, system_prompt_template, user_prompt_template)
+        self.localization_prompt_template = localization_prompt_template
+        self.style = style
+        self.n_paraphrase = n_paraphrase
+
+    def set_system_prompt(self, text):
+        localization_prompt = self.localization_prompt_template.format(**{'input_text': text[:30]})
+        system_args = {
+            'language_input': localization_prompt,
+            'style': self.style,
+            'n_paraphrase': self.n_paraphrase
+
+        }
+        return self.system_prompt_template.format(**system_args)
+
+    def call_llm(self, input_text):
+        system_prompt = self.set_system_prompt(input_text)
+        user_prompt = self.user_prompt_template.format(**{'input_text': input_text})
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self._get_response(messages)
+        output_text = response["choices"][0]["message"]["content"].strip()
+        return output_text
+
+    def call_llm_with_res(self, input_text):
+        system_prompt = self.set_system_prompt(input_text)
+        user_prompt = self.user_prompt_template.format(**{'input_text': input_text})
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self._get_response(messages)
+        output_text = response["choices"][0]["message"]["content"].strip()
+        return output_text, response
+
+
+class OpenaiChatCompletionCurrentRephraser(OpenaiChatCompletionBase):
+    def __init__(self, model_name="gpt-3-5-turbo", api_version="2023-05-15", temperature=0.0, max_tokens=200,
+                 system_prompt_template="", user_prompt_template="", localization_prompt_template="", style='casual',
+                 n_paraphrase=1, n=1):
+        super().__init__(model_name, api_version, temperature, max_tokens, system_prompt_template, user_prompt_template)
+        self.localization_prompt_template = localization_prompt_template
+        self.style = style
+        self.n_paraphrase = n_paraphrase
+        self.n = n
+
+    def set_user_prompt(self, text):
+        localization_prompt = self.localization_prompt_template.format(**{'input_text': text[:30]})
+        prompt_args = {
+            'language_input': localization_prompt,
+            'style': self.style,
+            'input_text': text
+        }
+        return self.user_prompt_template.format(**prompt_args)
+
+    def call_llm(self, input_text):
+        user_prompt = self.set_user_prompt(input_text)
+        messages = [
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self._get_response(messages)
+        output_text = response["choices"][0]["message"]["content"].strip()
+        return output_text
+
+    def call_llm_with_res(self, input_text):
+        user_prompt = self.set_user_prompt(input_text)
+        messages = [
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self._get_response(messages)
+        output_text = response["choices"][0]["message"]["content"].strip()
+        return output_text, response

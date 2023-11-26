@@ -1,0 +1,1402 @@
+[
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "And this picture of her with Zack from Saved By The Bell  http://twitpic.com/669lg",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Just got in a fight and kicked out of the bar. At least I knocked him out. Have a fat lip though.  Pulled another number",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Hows that possible? No rain forecast for Pinkpop? And I have no ticket",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "just had a gym sesh.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "i am the only arabic girl who`s online  every one is  a sleep ..",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "  i hate when that happens. i hope you figure it out soon!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Yes, I am",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Theyre sappin mah sentry! errr yea... i`m without power at home right now",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I`m saving up for a three burner weber for next year",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I didn`t even get a chance to shop @ Aldi!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Hockey was so fukinï¿½ good  **** you hole! xD",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Watching fireworks off the Bay bridge.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I have a new found respect for you now that I know you know the Konami code!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "  http://twitter.com/friends?page=20 press previous on that page.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " better than throwing them out",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Headed home ... Charlie`s at the vet",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " haha i shaved all my facial hair off except for my moustache cause i thought it would be cool! But it made me look gross",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "is slowly crunching the reality that june is fast approaching. in other words, classes again, and another year will be added to my age.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Up early this morning, first to portmeirion then home",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "I`ve just about made it all the way round the park jogging. Quite pleased for my 6th outing",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Huge headache...goodnight!!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "not sure where the real state market is moving  confused either hold or go ahead with the plans?",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "It`s weird waking up in my own bed. Slightly comforting, but i miss the group. But i`m loving using my own pillow again!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "my hair won`t turn whiiite",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " P.S. Culled a handful, esp followers (spam ones with NSFW links that I did NOT click on). You made the cut though",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Yay me!  But, what in particular?",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I think it`ll be more like a casual attendance instead of a review, as there might not be another issue of felix by then.  Thanks.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I mean someone hit a dog with a car. It was just laying there",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " follow me too",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Just finished down loading AIM6.9 and guess what! I can get updates from Twitter on it!  Message me at: i am katie arttt",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "My new site is stuck in the Google sandpit now  Test of my skills until it comes back out!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "http://twitpic.com/67fue - My formerly pretty car",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "looking for people",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " where`d you go!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " My Denny`s shut down in the winter.  I have to do 50 miles to get to one now.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "neutral"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Welcome!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "yeah so Prom Night is now the Craft (good movie)",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " hey Sherri -- don`t give up b/c they`re married; they may have a brother or a friend!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "   Caladesi was definitely a nice peaceful way to spend a Sunday! I got a lil tan!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Good morning!  Just took the longest shower ive ever taken in my life. Like 45 to 50 min shower!! Woah. lol",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " oh that totally works too",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Thanks mama ! I absolutely adore her",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " LMAO... just saw this. That sounds HELLA good. I have a hair appt at 7",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "HAPPY MOTHERS DAY MAMMA",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " have a safe ride up the coast. Don`t be going 90 even though you can.  when its windy just smile cuz u know u have it better.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Hahaha, that`s a cool pic that Sal made of Daniel and you. lol.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "being a computer geek is entertaining.... i think.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Haha...YAY!!! I`M CURED!!!!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "At the bus stop there`s always a big pile of loogies. So. Gross.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Wow what a storm we just had!!! Now no power",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I know it`s against the law... I am a rebel in small things.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " pauly wallly ! you made my life **** happy as hell and i love you x3 you should reply back to me",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " thanks for following",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Hayley Williams is pretty much amazzing",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "I`d love too see you were it ",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "goodmorning everyone",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "I want cookies for breakfast! Luckily I`m an adult and can do that!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " welcome to my life",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "On page 214 of 320 of Betrayed by P.C. Cast. really starting to enjoy this series",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " That`s love.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I really wish I could",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Thank you so much phaoloo !!!!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " hope you have a nice relaxing day!!! hope your well  wishing you all the best",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " did you tweet me? i thought i remembered seeing one but i cant see it now! SO glad teatree is ok!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "excited about this week! trying to have a productive monday. trying. hard.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "school. 39 days !!! so exited. Amazing premier ",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Just Saw Confessions Of A Shopoholic...Totally fell in love with Hugh Dancy`s accent!! :3 Need $20.00 for tomorrow, new top i want!!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Same here - events + writing songs. But I just finished my TMNT vs MMPR song, so I`m excited to record that on Wednesday",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "had a lovely breakfast with mum...yummy pancakes",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "happy sunday all",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "positive"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "...Nomore adventure time",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "wants  to come back online so that he can talk about all the gossip and horrible things which transpired today.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "seagull hates me and im utterly depressed about it. i miss him.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " yay asap lol awwh I miss our friday night happy hours even luna del sea and the 'boy' hahahaha",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Ha,  i`m giving spymaster a chance - just curious! will miss u",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Now I`m all sad because I`ll probably never see Fleetwood Mac.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " omginorite! I`d be all fancy and tophatted all the time, it`s really too bad I can`t grow a handlebar moustache..",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " heyy i have a sis of 1 year with 5 months and still she don t want to walk..",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "I`m at work and I`m still sick and I`m really pissed off about Sunday!!!",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "I`m very conflicted here.  I really like Mike but I still have feelings for Darrin.  It`s really complicated.  I don`t know what to do.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "_Fenton i didnt even finish cleaning my room cuz i went to a party ahhhh  ITS STILL MESSY",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Why don`t you make me feel like you used to",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " Im sad i cant go. it makes me sad",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I got a headache because of all the hard work today, still not ready, with a #Heineken trying to finished up",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "My bike was put on hold...should have known that.... argh total bummer",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "in school w. linda doing nothing  ;i miss you",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Don`t you hate it when you`re left with one slice of bread left in the bag? Half sandwich.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "does not feel like babysitting. i want to go to the gym. weird, i know. i miss zack",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " DUDE. same.  it hurts",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "My net died so yeah....  I`m sad now",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " I heard it was disappointing, which I am disappointed by before I`ve even seen it.  What a waste of C. Bale.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "No kickboxing classes today  pretty bummed. Still going to work out hard. http://myloc.me/1ZT0",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "no internet for a week or longer",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Every pair of jeans I own nowadays is very tight.  I think mah butt gettin big (oh!)",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": " how crappy for him",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "So tired.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "it makes me sad when people phones are sick",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Spilled chocolate milk in my car",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "Hates having broken wrist and has PE next ugh",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "neutral",
+                "positive",
+                "negative"
+            ],
+            "input_text": "I`m all scared and bruised.",
+            "target_column_description": " \"neutral\": texts with neutral sentiment.\n\"positive\": texts with positive sentiment.\n\"negative\":texts with negative sentiment."
+        },
+        "expected_output": {
+            "possible_categories": "negative"
+        }
+    }
+]

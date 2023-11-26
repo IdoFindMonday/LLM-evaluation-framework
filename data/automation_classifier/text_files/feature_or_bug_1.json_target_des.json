@@ -1,0 +1,1302 @@
+[
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I'd love to have an option to save multiple drafts in the app!",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Hey, there's this weird glitch where the colors of my tasks keep changing randomly.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Can we please add a 'Mark as Unread' option for notifications?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "The search function isn't working right, it keeps showing irrelevant results.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be awesome if we could have a dark mode for the mobile app!",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Urgent! The sidebar navigation disappeared after the last update.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I kindly request the addition of a feature that enables users to save multiple drafts within the application.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I'd like to report a technical issue where task colors seem to change randomly, without any user input.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "We humbly suggest the implementation of a dark mode feature in the mobile app, enhancing user experience and reducing eye strain.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Regrettably, the search function's performance has been unsatisfactory, as it produces irrelevant and unrelated results.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Can we get a calendar integration to sync deadlines and events?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "With great urgency, I bring to your attention the disappearance of the sidebar navigation subsequent to the recent software update.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "We kindly request the addition of a calendar integration system that synchronizes deadlines and events across platforms, ensuring better organization.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I hereby report a significant flaw in the 'Copy Item' feature, which fails to duplicate content correctly and only generates empty items.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Please add more customizable notification sounds for desktop.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be greatly appreciated if you could incorporate additional customization options for notification sounds on the desktop version.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Help! I can't upload any attachments to my items anymore.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I'm in desperate need of technical assistance, as a recurring issue prevents me from uploading any attachments to my items.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be great to have a dark theme option for the interface.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I encountered a problem where the app crashes whenever I try to open a large file.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Could you please add an option to sort tasks by priority?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There seems to be an issue with the notification system, as I'm not receiving important updates.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be helpful to have a quick shortcut for adding tags to tasks.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I've noticed a bug where completed tasks sometimes reappear in the task list.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Please add the option to set recurring reminders for tasks.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I'm experiencing slow loading times when accessing boards with a large number of items.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Can you enable the integration with Google Drive for file attachments?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug that prevents me from saving changes to the description of certain items.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be great to have the ability to assign tasks to multiple team members.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I've encountered a bug where subtasks disappear after a task is moved to another board.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Please add a feature that allows users to create custom board templates.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There seems to be a bug causing occasional data synchronization issues across devices.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Could you please add the option to set start dates for tasks?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Whenever I try to export a board, the downloaded file is empty.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Can we have a feature that lets us clone entire boards?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "The app crashes when I try to search for specific keywords within items.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be helpful to have the ability to customize field labels in the board view.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I've encountered a bug where the due dates of tasks sometimes get reset randomly.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be really useful to have a built-in chat feature for easy communication within the app.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug where the app freezes when I try to edit the description of a task.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Could we please have an option to set reminders for tasks?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I noticed a bug where the progress bar doesn't display the correct completion percentage.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be great if we could customize the colors of labels to match our team's branding.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug that causes duplicated tasks to appear randomly in the task list.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Can you please add the ability to create sub-items within tasks?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I'm experiencing a bug where attachments sometimes become corrupted and cannot be opened.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be really helpful to have a timeline view for tracking project progress.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug that prevents me from deleting some old archived items.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Could you please add a search feature within the app to quickly find specific items?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug where the time tracking feature doesn't accurately record the time spent on tasks.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Please add an option to export board data in a CSV format.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I noticed a bug where the mobile app crashes when I try to switch between boards.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Can we have a feature that allows us to duplicate entire groups of tasks?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug that causes inconsistent behavior when sorting tasks by due date.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be great to have a Kanban view for visualizing workflow and task progression.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I encountered a bug where task assignments occasionally get reset unexpectedly.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Could you please add a feature that allows us to set dependencies between tasks?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug where duplicate notifications are sent for the same task update.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I would love to have a  Favorites feature to quickly access frequently used boards.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug where the app crashes when I try to open a board with a large number of items.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be great if we could have tags for individual checklist items within a task.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I noticed a bug where the due dates of tasks sometimes change unexpectedly after editing them.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Can we have the ability to create public boards that can be shared with external stakeholders?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug that prevents uploading attachments larger than 100MB.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Could we please have an option to filter tasks by multiple labels at the same time?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I'm experiencing a bug where the sorting order of tasks is not preserved after refreshing the page.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be helpful if we could have recurring subtasks within recurring tasks.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug that causes the comments section to disappear for some items.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Please add the option to group tasks by assignee for better team collaboration.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I noticed a bug where the app lags when moving tasks between columns in the board view.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Can we have an integration with Dropbox for seamless file attachments?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug that prevents me from dragging and dropping items in the calendar view.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Could you please add an activity log to track changes made by collaborators within a board?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I'm experiencing a bug where completed subtasks are not marked as completed in the parent task.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "It would be great if we could have a progress indicator for checklist items within a task.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There's a bug where the time tracking feature records time in an incorrect timezone.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "We should totally have the option to connect with other messaging tools for instant notifications. It would make communication so much smoother!",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Ugh, the calendar widget is acting up again! It's not syncing properly with my external calendars. Can we please fix it?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Hey, it would be awesome if we could customize the email notifications with our own company's branding. It'll give it a nice personal touch.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Argh, why can't we delete files from the file storage widget? It's causing unnecessary clutter. Let's make it happen!",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Dude, a dark mode option would be amazing! It'll save our eyes from the blinding brightness when working at night. Can we get it, please?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Seriously, we need to sort out these data duplication issues when we import stuff from external sources. It's messing up our entire workflow!",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "How about giving us the power to create recurring tasks? We all have those repetitive tasks that we can automate, right?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "OMG, the app keeps crashing whenever I try to edit certain text fields. It's driving me insane! Let's fix it ASAP, yeah?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "I think it would be cool if we had more flexibility in task dependencies and sequencing. Sometimes things can get a bit complicated, and we need that extra control.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Oh man, the file uploads are being a pain! They occasionally fail and we end up losing important attachments. Not good. Let's find a solution, okay?",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Users are consistently reporting troubles when attempting to log in using their Google accounts - this is a frequent occurrence.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Please implement functionality that allows users to color-code their individual tasks by degree of priority, which will enhance visual organization.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There appears to be a typo on the terms and conditions page, in the third paragraph, which should be corrected for professionalism.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Users are frequently requesting a feature that enables them to export a complete report of tasks that are already finished or completed.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Website stability issue to report - the site crashes whenever a user tries to upload a file larger than 2GB, please check it.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Users are expressing a desire to have full customization permissions on their dashboard for better user experience.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Certain buttons scattered across the interface are becoming unresponsive at times. This is affecting usability.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Please consider implementing a feature that allows for automatic updates to be made to the progress status on tasks based on certain triggers.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "The mobile application freezes when multiple users try to edit the same task simultaneously. Users are losing their inputs.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Users have expressed a request for a timeline view being made available for long-term projects tracking.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Reported issue where files uploaded by one user are not visible to some other members of their team.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "There is a strong demand by users for the ability to assign tasks to multiple people at once.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "The current search functionality appears to have issues, it's not returning the expected results.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Bug"
+    }
+  },
+  {
+    "inp": {
+      "categories_list": [
+        "Feature request",
+        "Bug"
+      ],
+      "input_text": "Please add the ability for users to toggle a dark mode on the user interface for using the tool in low-light conditions.",
+      "target_column_description": " \"Feature request\": refers to texts that specify a certain capability that is missing. \n\"Bug\": when an issue or a problem was found and being reported.\n"
+    },
+    "expected_output": {
+      "possible_categories": "Feature request"
+    }
+  }
+]

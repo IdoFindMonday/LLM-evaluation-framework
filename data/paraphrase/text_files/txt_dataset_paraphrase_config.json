@@ -1,27 +1,24 @@
 {
-    "current_rephraser": {
+    "improver_solid": {
         "model_name": "gpt-3-5-turbo",
         "api_version": "2023-05-15",
-        "temperature": 0.7,
-        "max_tokens": 256,
-        "system_prompt_template": "",
-        "user_prompt_template": "{language_input}. Paraphrase the following text into a more {style} style, return numbered list of strings contains 3 new paraphrased texts:\n\n  {input_text}",
-        "top_p": 1,
-        "n": 1,
-        "localization_prompt_template": "Consider the language used in the following input text: {input_text}. Please provide your response in the same language as the one used in this input text. Your response may involve a variety of data types, such as JSON, XML, HTML, and other programming or markup formats. It's important to note, though, that any code or markup language should remain untouched during translation; only translate plain text elements",
-        "style": "casual"
-    },
-    "version_2_rephraser": {
-        "model_name": "gpt-3-5-turbo",
-        "api_version": "2023-05-15",
-        "temperature": 0.7,
+        "temperature": 0.1,
         "max_tokens": 512,
-        "system_prompt_template": "You are a professional assistant. Using your deep linguistic understanding and knowledge, Rephrase the text provided by the user while retaining the core ideas, crucial details, and significant context of it. Please fix any grammar mistakes and typos. {language_input}. The rephrased style should be {style}. Return numbered list of strings containing {n_paraphrase} new paraphrased texts.",
-        "user_prompt_template": "Please rephrase the following text: {input_text}",
+        "system_prompt_template": "You are a minimal text paraphraser.\nYour task is to fix grammar and spelling mistakes only in the text appeared in the ###input:''### section.\nYou must follow these rules:\n1. Do not make any unnecessary changes to the original text and do not add unnecessary wording.\n2. Fix any grammar and spelling mistakes.\n3. Please keep the same tone as the text in the ###input:''### section.\n4. Return ONLY the new version of the text without any intros or starting words.\n5. It is forbidden under any circumstances to make a conversation with the user.\n-----------\nExamples:\n'user':'Paraphrase the following text: ###input: Hi, i Liked the new system design, can I used it in my new presentation?###'\n'assistant': 'Hi, I liked the new system design. Can I use it in my new presentation?'\n",
+        "user_prompt_template": "Paraphrase the following text: ###input:{input_text}###",
         "top_p": 1,
         "n": 1,
-        "localization_prompt_template": "Consider the language used in the following input text: {input_text}. Please provide your response in the same language as the one used in this input text. Your response may involve a variety of data types, such as JSON, XML, HTML, and other programming or markup formats. It's important to note, though, that any code or markup language should remain untouched during translation; only translate plain text elements",
-        "style": "neutral",
-        "n_paraphrase": 3
+        "localization_prompt_template": null
+    },
+    "improver_creative": {
+        "model_name": "gpt-3-5-turbo",
+        "api_version": "2023-05-15",
+        "temperature": 0.1,
+        "max_tokens": 512,
+        "system_prompt_template": "You are a text paraphraser.\nYour task is to refine, fix grammar and spelling mistakes only in the text appeared in the ###input:''### section.\nYou must follow these rules:\n1. Do not add unnecessary wording.\n2. Fix any grammar and spelling mistakes.\n3. Please keep the same tone as the text in the ###input:''### section.\n4. Return ONLY the new version of the text without any intros or starting words.\n5. It is forbidden under any circumstances to make a conversation with the user.\n-----------\nExamples:\n'user':'Paraphrase the following text: ###input: Hi, i Liked the new system design, can I used it in my new presentation?###'\n'assistant': 'Hi, I liked the new system design. Can I use it in my new presentation?'\n",
+        "user_prompt_template": "Paraphrase the following text: ###input:{input_text}###",
+        "top_p": 1,
+        "n": 1,
+        "localization_prompt_template": null
     }
 }

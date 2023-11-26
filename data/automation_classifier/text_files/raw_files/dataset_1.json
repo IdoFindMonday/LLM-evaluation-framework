@@ -1,0 +1,360 @@
+[
+  {
+    "inp": {
+      "types_list": [
+        "missing information",
+        "overdue task",
+        "stuck task",
+        "other"
+      ],
+      "issues_list": [
+        {
+          "item_id": "4909617580",
+          "issue_description": "The actual SP value is not updated after the task is marked as done."
+        },
+        {
+          "item_id": "4916698257",
+          "issue_description": "The 'Estimated SP' for this task is missing, causing ambiguity in task completion assessment."
+        },
+        {
+          "item_id": "4940323702",
+          "issue_description": "The task was unplanned and completed without recording an estimated or actual Story Points value. This could make it more difficult to plan and manage future tasks."
+        },
+        {
+          "item_id": "4966145817",
+          "issue_description": "The task 'CI Flaky Tests - always randomize account slug' is waiting for review but lacks an estimation. Plus, the task is 'Unplanned', which could imply it might not be completed within this sprint reaching 2023-08-12."
+        },
+        {
+          "item_id": "4971670695",
+          "issue_description": "The task is in 'Pending Deploy' status but lacks the designated owner. This can lead to responsibility disputes or delays, especially as the task is unplanned and can disrupt the closing timeline for the sprint."
+        }
+      ]
+    },
+    "expected_output": {
+      "issues_type": [
+        {
+          "item_id": "4909617580",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4916698257",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4940323702",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4966145817",
+          "issue_type": [
+            "stuck task",
+            "missing information"
+          ]
+        },
+        {
+          "item_id": "4971670695",
+          "issue_type": [
+            "stuck task",
+            "missing information"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "inp": {
+      "issues_list": [
+        {
+          "item_id": "4899580366",
+          "issue_description": "The type of the task is non-informative and may lead to misunderstandings of its nature."
+        },
+        {
+          "item_id": "4868478338",
+          "issue_description": "Multiple owners assigned to a single item, it could lead to confusion and lackadaisical attitude towards the task."
+        },
+        {
+          "item_id": "4965595449",
+          "issue_description": "The task might not be completed by the end of the project's sprint."
+        },
+        {
+          "item_id": "4804688817",
+          "issue_description": "The issue is there is no assigned owner to the 'Replica lag' task."
+        },
+        {
+          "item_id": "4904384210",
+          "issue_description": "The owner of this item is not specified. It's important to know who worked on a task in case any revisions or clarifications are needed in the future."
+        }
+      ],
+      "types_list": [
+        "missing information",
+        "overdue task",
+        "stuck task",
+        "other"
+      ]
+    },
+    "expected_output": {
+      "issues_type": [
+        {
+          "item_id": "4899580366",
+          "issue_type": "other"
+        },
+        {
+          "item_id": "4868478338",
+          "issue_type": "other"
+        },
+        {
+          "item_id": "4965595449",
+          "issue_type": "overdue task"
+        },
+        {
+          "item_id": "4804688817",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4904384210",
+          "issue_type": "missing information"
+        }
+      ]
+    }
+  },
+  {
+    "inp": {
+      "issues_list": [
+        {
+          "item_id": "4870755910",
+          "issue_description": "The task is overdue. It was supposed to be completed within 1 day after it started but it's now 14 days overdue."
+        },
+        {
+          "item_id": "4804392862",
+          "issue_description": "This task is behind schedule. It was supposed to be completed in the current sprint but has been moved to the next sprint and not started yet, which may affect the upcoming sprint's planned tasks and overall project timeline."
+        },
+        {
+          "item_id": "4883806482",
+          "issue_description": "The task has been moved to the next sprint when the current sprint isn't completed, indicating that the task is behind schedule."
+        },
+        {
+          "item_id": "4883813317",
+          "issue_description": "The task has not yet started even though the deadline is approaching."
+        },
+        {
+          "item_id": "4835244929",
+          "issue_description": "the task has no priority and is not assigned to anyone."
+        }
+      ],
+      "types_list": [
+        "missing information",
+        "overdue task",
+        "stuck task",
+        "other"
+      ]
+    },
+    "expected_output": {
+      "issues_type": [
+        {
+          "item_id": "4870755910",
+          "issue_type": "overdue task"
+        },
+        {
+          "item_id": "4804392862",
+          "issue_type": "overdue task"
+        },
+        {
+          "item_id": "4883806482",
+          "issue_type": "overdue task"
+        },
+        {
+          "item_id": "4883813317",
+          "issue_type": [
+            "overdue task",
+            "other"
+          ]
+        },
+        {
+          "item_id": "4835244929",
+          "issue_type": "missing information"
+        }
+      ]
+    }
+  },
+  {
+    "inp": {
+      "issues_list": [
+        {
+          "item_id": "4882215773",
+          "issue_description": "The task has not been started and the status is not updated while the project's sprint is about to end in 2 days."
+        },
+        {
+          "item_id": "4868415868",
+          "issue_description": "The 'Actual SP' field is missing for the completed task."
+        },
+        {
+          "item_id": "4879905140",
+          "issue_description": "The status of a high priority task (item_page invalid compare_attributes - debug & talk to Anya/Shlomi) is not updated and we are close to the sprint deadline."
+        },
+        {
+          "item_id": "4879908265",
+          "issue_description": "The task's status is not updated and considering its high priority with only two days left in the sprint, it is concerning if the task will be completed on time."
+        },
+        {
+          "item_id": "4884057880",
+          "issue_description": "The task is pending deployment with less than 48 hours remaining in the sprint, which might not leave enough time to address any immediate post-deployment issues."
+        }
+      ],
+      "types_list": [
+        "missing information",
+        "overdue task",
+        "stuck task",
+        "other"
+      ]
+    },
+    "expected_output": {
+      "issues_type": [
+        {
+          "item_id": "4882215773",
+          "issue_type": [
+            "overdue task",
+            "missing information"
+          ]
+        },
+        {
+          "item_id": "4868415868",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4879905140",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4879908265",
+          "issue_type": [
+            "missing information",
+            "overdue task",
+            "stuck task"
+          ]
+        },
+        {
+          "item_id": "4884057880",
+          "issue_type": "stuck task"
+        }
+      ]
+    }
+  },
+  {
+    "inp": {
+      "issues_list": [
+        {
+          "item_id": "4868432150",
+          "issue_description": "The task was marked as completed, but the Actual SP (Story Point) is not provided. Therefore, it's unclear how much time it took to complete this task."
+        },
+        {
+          "item_id": "4868541985",
+          "issue_description": "This task is possibly delayed as it has taken 7 days whereas the estimated time was only 2 days."
+        },
+        {
+          "item_id": "4883709541",
+          "issue_description": "The issue is that the 'Actual SP' is null for a task marked as 'Done' which indicates that we don't have a record of how many days it took to complete this task."
+        },
+        {
+          "item_id": "4804032152",
+          "issue_description": "The task is a high priority task, yet it has not started and the sprint is due to finish in just 2 days."
+        },
+        {
+          "item_id": "4883780696",
+          "issue_description": "The task 'pagination for linked items - will create breaking change later' is set as a high priority task but it was moved to the next sprint. Considering today's date and the end date of the sprint, this task won't be delivered in the current sprint."
+        }
+      ],
+      "types_list": [
+        "missing information",
+        "overdue task",
+        "stuck task",
+        "other"
+      ]
+    },
+    "expected_output": {
+      "issues_type": [
+        {
+          "item_id": "4868432150",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4868541985",
+          "issue_type": "overdue task"
+        },
+        {
+          "item_id": "4883709541",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4804032152",
+          "issue_type": "overdue task"
+        },
+        {
+          "item_id": "4883780696",
+          "issue_type": [
+            "other",
+            "overdue task"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "inp": {
+      "issues_list": [
+        {
+          "item_id": "4899582899",
+          "issue_description": "The Actual SP value for this completed task is null, marking the task as done without reflecting the number of days it took could cause inaccurate future planning."
+        },
+        {
+          "item_id": "4868548337",
+          "issue_description": "The 'Actual SP' for the task is missing. This information is crucial to evaluate the actual effort spent on the task and to improve the accuracy of estimating future tasks."
+        },
+        {
+          "item_id": "4883788187",
+          "issue_description": "The 'critical' priority task is without a designated owner."
+        },
+        {
+          "item_id": "4804021843",
+          "issue_description": "The critical task hasn't been started and is at risk of not being completed by the end of the current sprint."
+        },
+        {
+          "item_id": "4883773857",
+          "issue_description": "A critical priority task has been moved to the next sprint. This could affect the successful delivery of the project within the desired timeline."
+        }
+      ],
+      "types_list": [
+        "missing information",
+        "overdue task",
+        "stuck task",
+        "other"
+      ]
+    },
+    "expected_output": {
+      "issues_type": [
+        {
+          "item_id": "4899582899",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4868548337",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4883788187",
+          "issue_type": "missing information"
+        },
+        {
+          "item_id": "4804021843",
+          "issue_type": "overdue task"
+        },
+        {
+          "item_id": "4883773857",
+          "issue_type": [
+            "overdue task",
+            "other"
+          ]
+        }
+      ]
+    }
+  }
+]

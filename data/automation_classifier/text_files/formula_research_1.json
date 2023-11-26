@@ -1,0 +1,1302 @@
+[
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello\n I am having some issues with my board. When i import from Excel into Monday, the date column is not working 100% correctly. \n Also, I have issues with the formulas, I need help with that. \n\nThank you \n\n--\nJohnny Matatov =)"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I need help with a formula. I'm trying to subtract a GST column & PST column from a total column and rounding the answer to two decimal places. I'm not sure how to write this:\n\nROUND(MINUS({Total Claim Amount})(SUM({Total Claim Recoverable GST},{Total Claim Recoverable PST}),2)"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Is there a way to show a timeline by hours instead of days? I am tracking when employees are out of the office, which is easy if they are gone the whole day, but if they are only gone from 9 am until 1 pm I need to show it. I have this connected to my google calendar so anyone from our team can see when people are out of the office"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2425844 \"Issue with formula when col...\"\n\nHello Leora,\n\nSorry it took me so long to get back to you. I had other priorities I had to work on.\n\nHere is the formula that is currently in the Column P3 -Days for KPI. Here is the formula in the KPI Met Here is the current SLA Status Label\n\nRegards,\n\nDebbie\n\nCAUTION: External Email."
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi \n\nCan you help me understand step-by-step how I can use the VLOOKUP feature?\n\nI have two tables\n\nTable 1 has \nCustomer name, Column A\n\nTable 2 has \nCustomer name, Column B\n\nI just want to add a VLOOKUP so that \n\nTable 1\nCustomer name, Column A, Column B_VLOOKUP"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2513566 \"I need a formula that will ...\"\n\nHi maya,\n\nInstead of this formula: IF(FORMAT_DATE(SUBTRACT_DAYS({Deadline},\n\n{Alert Time Frame (Days)}),\"MMM DD YY\")\n\n= FORMAT_DATE(TODAY(),\"MMM DD YY\"),\" 📌 TODAY\",\"\")\n\nIt is possible to change the “=” to “= or <”?\n\nI want the formula to sign something when the alert time is starting and until the deadline. For example, if alert time is 30, 30 days before deadline the formula will sign “today” until the deadline – for 30 days.\n\nEden Kaufman\nHead of Implementation Department\n\n+972-3-5320175\n\n972-523496383+\n\nEDEN.KAUFMAN@TARA-IL.COM\n\n+972-3-5444407"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I would like help in building a formula in my 'ASES Main Compliance Board DRAFT - Australian Service Excellence Standards' board.\n\nI have a number column titled \"Unsuccessful Contact Attempt\". If this column has the number 4 or greater, I would like a message displayed in the formular column e.g. \"Missed call log = grounds for client removal\" with some sort of emoji e.g. red X?"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2414351 \"Meeting\"\n\nHi Tal,\n\n \n\nCould I book another session please?\n\n \n\nThanks"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "how do i make a formula that adds multiple column numbers in the same row? example, 1 item is called Keynotes Piano, i want to add the number fields in that item to sum total"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi there, I just need to ask for help please. I have this formula for DIVIDE..\n\nDIVIDE(SWITCH({AD BUDGET},\"$250\",250,\"$300\",300,\"$500\",500,\"$550\",550,\"$750\",750,\"$800\",800,\"$850\",850,\"$1000\",1000,\"$1250\",1250,\"$1500\",1500,\"$1750\",1750,\"$2000\",2000,{Other Ad Budget},11)\n\nIts coming out as an illegal formula.. So basically the numnbers (ad Budget and other ad budget) will be divided by 11 then the result will then be deducted from the ad budget or the other ad budget and this number will then be the one resulting in the field. \n\nCan you please help? Thank you."
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 13015262614 \nCompany Size: 20-49\nMessage: Hopefully this is an easy issue, however I am not seeing anything about this specifically on your website or in the support guidance."
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2463927 \"Hi Monday Team, We'd like t...\"\n\nHi Thess,\nThanks for your feedback and suggestions.\nAttached is a screen capture image with a note of the number of columns according to the formula we need to adjust as follows:\n(2) = (1) * VAT (%)\n(4) = (1) * (3)\n(6) = (1) * (5)\n(8) = (A) - (4) - (6)\n\nHope the information is easy to understand and can be handled by Monday team.\nThanks,"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello! I'm trying to build a dashboard with stats from this board. One of the statistics I want to include is the sum of one column as a percentage of another. What widget will let me make this type of calculations using column totals in the Dashboard? Thank you!"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello!\n\n \n\nI am trying to troubleshoot a Formula column that does not seem to be totaling the numbers calculated in the bottom summary row (screenshot attached). Can you please advise?\n\nSincerely,\n\nAndrew\n\n \n\nANDREW WORDEN, Entrepreneurship Program Manager\nThe University of Texas at Austin | Discovery to Impact\n\nhttps://discoveries.utexas.edu"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi, I want to calculate the tenure of clients with a start date and end date. I am able to create a formula while the client is active however I cannot find a way to calculate with an end date. Can you help?"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi there! I am having a super tough time with getting a formula to work. On the insurance summary board > subitems column \"% Change\" I am trying to calculate the percentage change in \"Prior Year Premium\" to \"Premium Amount\" I am able to get the formula converted into what the percentage would be but cannot figure out how to get the % symbol added to the end of the figure. I've read through every online forum I can find and used the same formulas others have but it's still not working :( Any help would be great!"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I am trying to build a formula to calculate a sales credit based on a person column on my board. \n\nI would like the formula to be If Sales Credit is Contract Value, Multiple Contract Amount by 80%. Here is what I have so far - IF({Sales Credit},\"Contract Value\", MULTIPLY({Contract Amount},80%) but it is not working. \n\nThe end goal to allocate 80% of the contract value to our \"Pursuit Champion\" a person column and 20% of the contract value to a \"Reviewer\" or \"Technical Lead\" also both people columns. \n\nHere is a link to a loom video describing the question and showing the board and columns - https://www.loom.com/share/4a2209aa1ea84ce1b5d45cf4e45b8048"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello,\nI can't figure out how to calculate an average with the dashboard or with the formula.\nI have a board that shows all the files one engine is processing everyday. I would like to calculate the average processing velocity. In my board, each line is a file processed and I have 2 columns with the information we need to calculate the processing velocity: the number of records in the file and the processing time in minutes. \nIs there a way that we can calculate the average processing time in a dashboard?"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hey Monday.com team, \n\nI've created subtasks on this pulse - https://enhancemedia.monday.com/boards/3619926768/pulses/4073770369 - to show a breakdown of tasks/costs that are included however I don't have the option to format the \"cost\" column with a currency symbol like I can in the main pulse. \n\nIs there a way to do this at all? \n\nMany thanks, \nCaley"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Este é um seguimento do seu pedido anterior n° #2516346 \"Conversation about Formula\"\n\nDeu certo, obrigado\n\nEm ter., 21 de fev. de 2023 às 06:03, monday.com  escreveu:"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi Support,\n\nI am currently playing around in the Demo environment of Monday.com.\n\nOne important function that we would like to have is when we add a start and end date for a project the dates will pre populate for the task in between these dates. \n\nIs this possible?\n\nLooking forward to hearing back from you. \n\n--\nMarelia Meyer\nGlobal Payroll Implementation Specialist\nRemote"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello\nI'm having issues with the formula column, its becoming quite frustrating, Especially when I write a formula and its working then I make an addition to it I get an error so I delete what I've added then the previous formula that was working fine comes back with an error can you please advise what I'm doing wrong?"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "In our DEALS board, we have a column that is Project Code, which is a formula that takes the first two letters of our projects. These 2 letter prefixes relate to different departments, so I have another board that is a table of project codes and departments (both as text and status columns).\n\nI have tried to use the Vlookup function but this doesn't work on formulas. So:\n\n1. Is there any way I can autopopulate a Dept. column based on a project code (which is all listed in another board)?\n2. Or, is there any way of populating a text column with the first two letters of a field when it's updated (so I can then use vlookup)?"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I am trying to count natural days between 2 days inside and IF statement:\n\nIF({Handover Date}=\"\", ROUND(DAYS({Actual Go-live#Start}, TODAY()), 0), ROUND(DAYS({Actual Go-live#Start}, {Handover Date}), 0))\n\nBefore I had this formula counting WORKDAYS that work but I now want to count natural days:\nIF({Handover Date}=\"\", WORKDAYS(TODAY(),{Actual Go-live#Start}), WORKDAYS({Handover Date},{Actual Go-live#Start}))\n\nThanks"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I am using the DAY() function in a formula with reference to the {Date} column in my table. For some reason, the DAY() function is returning the day of the month minus 1 for every column."
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 4915254095863 \nCompany Size: undefined\nMessage: Hello! I have a project duration which is the result of a calculation of three different numbers. I now managed to connect that to a start date and calculated the end date with it. Now I would like to connect that to the timeline column. However, I can just set a number column and not a formular column as duration. Is there any work-around? Thank you very much, \nVery best regards, \nElisabeth"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2429054 \"Conversation with Christina...\"\n\nGood morning Diego, \n\nThank you for your email. I apologise for the delay in replying but your email didn't arrive in my inbox until after I'd finished work for the Christmas holidays, so I didn't see it until the new year. \n\nI have rebooked a support session with you using the link above as suggested, but once more I have not received a link to join the session. It is scheduled for today at 2:30pm, so if I haven't heard from you or received a link by 2 pm I will reschedule the meeting again and let you know. \n\nBest wishes,"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I need help updating a Formula in Monday.  I'm unsure how to proceed.  I've created a Loom Video to explain my need.  Here is the link to my video.\nhttps://www.loom.com/share/9ed9ff529ba54676bebd388f252a7795\n\nThanks for your help.\nCarola"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello!\n\nI am trying to display a count of only the subitems that contain specific text on the parent item using a formula column. I have tried several formulas but nothing seems to work. Is this possible? If so, can you please provide an example formula that I can work off of? I have created an example below. With Parent Item A, there are 5 Subitems. I am looking to count the subitems that only contain “AB”. The count on the parent item would equal 2. Any help appreciated!\n\nExample\n\nParent Item A\t\t\tOwner\t\t\tSubitem AB Count\n\t\t\t\t\tMe\t\t\t\t2\n\n\tSubitem A\n\tSubitem AB\n\tSubitem ABC\n\tSubitem X\n\tSubitem XY\n\n\nSincerely,\n\nLindsey Roberts\nHub Realty Solutions\n829 Penniman Ave.\nPlymouth, MI 48170\nlindsey@hubrealtysolutions.com"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "https://www.loom.com/share/01404e2620934596a25ab7d82d5634c0\n\nHey Monday team, I have some more questions w/ Formulas."
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2422427 \"Hidden Columns Keep Appearing\"\n\nHi Oscar,\n\nWanted to let you know that the issue is no longer happening. Thank you so much!\n\nRhiannon Risidore\nLevel Best Concrete Lifting Ltd.\nRichmond, BC\n\nOffice: 604-757-3666 | Mobile (Call/Text): 604-445-6273\nrhiannon@levelbestconcretelifting.com\nwww.levelbestconcretelifting.com (http://www.levelbestconcretelifting.com/)"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2417355 \"Error- formula with multipl...\"\n\nHi Leora,\n\n \n\nThanks for your response. I’ve been out of the office for the last month and am just getting back to this. The Connect Boards column on the PTO Request board is only connected to one board (Employee Directory). Screenshot is below."
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2537987 \"Review Formula about overal...\"\n\nGood evening Noya,\n\nI hope you are doing well! First thank you for your video super useful but unfortunately it still does not work from my side..\n\nhttps://www.loom.com/share/02e89eed654841ad8d6211a7ccd3952f\n\nLooking forward for your answer!\n\nBest regards\n\nLaura Blanc\n\nJunior PMO\n\nAddress: Schiekade 10A, 3032AJ,\n\nRotterdam, The Netherlands\n\nT +31 85 06 56 938\n\nE lblanc@nexioprojects.com\n\nW www.nexioprojects.com\n\nFrom: Noya (monday.com) \nDate: Wednesday, 1 March 2023 at 15:48\nTo:\nCc: Felix Keser | Nexio Projects , Cilia Keser | Nexio Projects , Laura Blanc | Nexio Projects , Natalia Giannakouri | Nexio Projects \nSubject: Review Formula about overall duration of employment\n\nCaution: This is an external email. No one inside Nexio Projects sent this email. Please take care when clicking links or opening attachments. When in doubt, contact itsupport@nexioprojects.com."
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "When I click on Customize Formula Column the UI scrolls back to the left edge of the board and the ability to edit the formula is no available.  \n\nI have to move the column so that it is on the left edge in order to edit the formula."
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi one of our boards (Time off request, is not calculating the days off properly.\n\nThanks,"
+        },
+        "expected_output": {
+            "possible_categories": "how_to"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 18186536731 \nCompany Size: 20-49\nMessage: I am creating formula columns on the board, however I do not want them to be visible to my employees. Is it possible to lock them as in Excel?"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2269795 \"Re: Support\"\n\nHey Prosper,\n\nI have another formula request please.\n\nThis time I need to get a formula to output the End of the Month.\n\nExample Excel:\n\nThis is the formal I have in Monday.com to get to the Start of the month\n\nFORMAT_DATE(EOMONTH({Estimated 1st Production},-2)+1)\n\nHowever when I place ‘0’ in the formula it fails.\n\nPlease help.\n\nKind Regards,\nDan\n\nDANIEL TAVENER-SMITH\n\nPROJECT MANAGER\n\nM: +44 (0) 7502 015 184\n\nFever-Tree, 186-188 Shepherds Bush Road, London W6 7NL"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Buenas noches, he estado explorando la opción de poder ingresar una información en una columna tipo texto a partir de otra información de otras columnas y mediante formula o algún medio ingresar el valor de manera automática, que no sea copiando y pegando sino que la extraiga a partir de unas condiciones y la ponga en la columna tipo texto. No he podido no se si es por el plan que estoy usando que es pro. Dentro de lo que he investigado debería aparecerme en el engranaje de la configuración de la columna la opción fórmula, pero no ha sido posible. Quedo atento, gracias!"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 972542140988 \nCompany Size: 1-19\nMessage: I have a budget board built as presented in your article with groups for different types of expenses and the Board Summary for Total expenses. But I also have income in my business and I need to calculate Income minus Expenses. Since formulas work with columns and not with rows I cant use formula. What is your suggestion on how to do it? Thaks."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Ciao,\nfino a poco tempo fa se dovevo inserire dei numeri (utilizzando la colonna numeri) dovevo usare il . (punto) come separatore decimale. Ora invece mi accetta la virgola, il che andrebbe anche bene per la visualizzazione Europea. Purtroppo però poi la colonna formula non mi accetta i numeri con la virgola.\n\nDunque ora preferirei tornare alla divisione decimale con il punto.\nCome posso fare?\n\nGrazie"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello,\nI'm trying to use a formula column to combine a link column and Item ID column. My formula looks like this: \nCONCATENATE=(\"{Revision Link}\"), (\"{Item ID}\")\n\nThis results in an error. Any idea how I can get this to work?"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 16175481333 \nCompany Size: 20-49\nMessage: I can calculate drive time with a formula in google sheets, so I’m curious if you might have the ability to do this as well? I would need distance between two locations  in separate rows."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi, I have 2 date columns in one board. I would like to write a workflow that says \"When a DATE is input, update DATE 2 to 30 days from the DATE column.\""
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2420228 \"Conversation with Madison K...\"\n\nThank you! This was very helpful. We’re giving this option a go.\n\nHave a good day!"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi there, \n\n\nWe notice that in the formula column of subitems we cannot use formula/number column of the main item they belong to. Unless we’re mistaken, please bring it as a complaint to the developers on behalf of our clients team and ours. \n\nBest, \nIlaria \n\nOmnidea S.r.l.\nwww.omnidea.it\n+39 049 8626415\n\nTrasformazione digitale, collaborazione, comunicazione in cloud"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Deberían de hacer mas fórmulas que sume los totales y que la interfaz pueda ser cómo excel, eigual no tiene fórmulas los formularios y se puede hacer mucho Zum amplificion o reducción en la imagen de la pantalla\n\nApp: monday.com - 4.100.1 (2012316775)\nOS: Android\nDevice: motorola moto g51 5G\nUserId: 37558283\nReported by: sixcontroltotal1@gmail.com\nDate: 2023-01-17 13:32:41 (GMT-4)"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Is there a formula to put the sum from a group into another column?"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I would like to set upa formaula for averages - see this:\nhttps://www.loom.com/share/3978766e4f4f40ef8af008c7a93a1435"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2288835 \"Monday is calculating the w...\"\n\nHi!\n\nJust checking in IF Monday have added the option to do formulas from the SUMMARY of a column yet?\n\nThis is still something im trying to do on a platform to make a proper sales dashboard. I´ve transitioned to ClickUp but it´s the same issue there.\n\nPlease make this feature as soon as possible and you guys will havve a huge advantage."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Good day,\n\nI am currently using the Demo version to play around and get familiar with Monday.com\n\nOne of the main functions that we need to have is to pre-populate days according to a start date, days allocated for each task and to skip public holidays. \n\nThis requires an area where we can define the public holidays for each country as well as the amount of days for a task. We will then need to use this in our formula. Is there a place where we can define information in order to pick in a formula that will pull thru to a task?\n\nRegards, \nMarelia"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi Monday Team!\n\n \n\nThe very popular assistant ChatGPT has told me you have a QUARTER function for Monday.com board formulas. (Please see attached screenshot.)\n\nIs this true?  Why would it say this?\n\n \n\n \n\nBrock Price\n\nSoftware Analyst\nPCI Energy Solutions\na.k.a. Power Costs, Inc.\n\n \n\nEmail bprice@pcienergysolutions.com\n\n\nPCIENERGYSOLUTIONS.COM\n\n \n\nThe preceding e-mail message (including any files attached to it) contains information that may be privileged, proprietary, private or confidential. If you are not an intended recipient of this message, please notify me by replying to this message and then delete it from your system. Use, distribution or reproduction of this e-mail message (including attachments) by unintended recipients is prohibited."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2498660 \"AW: Request #(2422226) | Co...\"\n\nHi Noya\n\nThank you very much for your suggested solution.\n\nI have watched the video and as I understood, this solution will not work if we would select more than 2 articles per column. If this is the case, then the solution won't work for us, because most of the time we need to select more than two articles.\n\nIn that case we will probably have to use an external program for article management.\n\nCan you please tell me, how can I duplicate the column \"Produktion/Dreh\" in the same board, so that also the duplicated column is updated as soon as it is changed. So said they should be twice in one board and show the same thing. I tried it with the mirror formula but somehow it didn't work.\n\nBest,\n\nMarko"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello,  i want to add a number on a date with a formula , but the form of formula continues to be a date form, so i can see it in calendar view. Is there any solution, because i tried form-date function but i didn't get the desired resalt. Thank you in advance"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi,\n\n \n\nI am trying to output the item id to a text column contained within curly brackets.. i.e.  becomes {3106017159}.\n\n \n\n \n\nMy formula is:\n\n \n\nCONCATENATE(\"{\",{Item ID},\"}\")\n\n \n\nWhich I cannot figure out why it is not working. It works if I replace the squiggly brackets with round or square brackets.\n\n \n\nShaun"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2500907 \"Hi, I already have numbers ...\"\n\nHi,\n\nThanks for reaching out.\n\nBut the issue is not resolved as you can see in email, Jackeline told she has forwarded this issue to the team.\n\nRegards,\n\nPrem\n\nCAUTION: This email originated from outside of the organisation. Do not click links or open attachments unless you recognise the sender and know the content is safe."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello Support Team,\n\nI am trying to set up shared holiday calendars where Employees & Line Managers can request & approve holidays and see what holiday entitlement they have remaining.\n\nPlease see example below:\n\n\n\nObviously the first number column showing the number of days adds up the number of days as they are inputted. However for the second number column I want the no of leave days to automatically deduct from the overall leave total. I have been manually inputting the data so they number if days is deducted in the Entitlement remaining column. Is there a formula or a way to automate this with the 2 number columns as it will just mean that you can see at a glance the number of days remaining without having to manually calculate. \n\nHope that makes sense but if not let me know.\n\nRegards,\nLaura Templeman\n\nlaura@key.digital \n01305 542000\nScreenshot 2023-03-17 at 12.56.56.png"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2423419 \"timer\"\n\nHello, \n\nthank you for your response. it has been very helpful\n\nI am having trouble with the formula doing what it should do - even though i have copied your same formula\nSee below the same formula as you, however the time tracking that is over 60 minutes is not OVERDUE when it should be.\n\n\n\nAlso when i try to add conditional coloring i only get the option on time or blank - not OVER DUE\n\n\nAppreciate your help.\n\nSamia"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello,\n\n \n\nIs there a way we can split the resources on a project with different capacity and not equally.\n\n \n\nPlease check the recording attached for more information.\n\n \n\nThanks,\n\n \n\n \n\nMamta Madhusudan\nSenior Business Analyst, IT PMO\n\n \n\n \n\nMobile:770.361.3772\nMamta.madhusudan-cw@otsuka-us.com\nwww.otsuka-us.com (https://www.otsuka-us.com/)"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi Support,\n\nI would like to check if there is any workaround regarding the below requirements.\n\nWe have a board to monitor the request for extension.\nI would like to know if there is formula to monitor, for example if the owner changes the Request due date we would like to count it and how many times.\n\n\n[cid:bfe6401b-65ae-4155-9422-387d4f12b551]\nRegards,"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2444716 \"Re: Request #(2435555) | Re...\"\n\nHi Prosper,\n\nI'm in need of your help again. Are you able to meet sometime tomorrow?\n\nBest,\nRyan\n________________________________\nFrom: Prosper Chimombe (Support) \nSent: Tuesday, January 10, 2023 11:01 AM\nTo: Ryan Casberg \nSubject: Re: Re: Request #(2435555) | Re: Request #(2426490) | Fw: Quick question for Metrics dashboard"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 12568744627 \nCompany Size: 1-19\nMessage: How to calculate running totals in groups. like we do in excel\nadd the previous value row column to the current row column value.\n example found https://www.youtube.com/watch?v=wtYdGzJDjjY"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "How can I have a subitme with a formula column that would report an amount from a column in an Item."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi there,\n\n \n\nPlease could you let me know how to build a formula to calculate one column as a % of the other column?\n\n \n\nAlso, I tried downloading the ‘Microsoft Forms Embedder’ from Monday.com appmarketplace but it says it will be able to read all of my boards data. Will these apps maintain data privacy?\n\n \n\n \n\n \n\nThanks,\n\nDania\n\n \n\nThis e-mail message is intended to be received only by persons entitled to receive the confidential information it may contain. E-mail messages to clients of Advantage Group International, may contain information that is confidential and legally privileged. Please do not read, copy, forward, or store this message unless you are an intended recipient of it. If you have received this message in error, please forward it to the sender and delete it completely from your computer system."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 84355093116 \nCompany Size: 100-250\nMessage: I'm building a report on Monday.com. I need to sum by condition like  \"SUMIFS\" function on Excel. Do you have a function like \"SUMIFS\" on Monday? Let me know the answer via my email: chungbtm@vng.com.vn. Thankyou very much!"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I have a formula column that calculates a deadline date but when I want to summarise info the column isn't recognised as a date column so my summaries don't work - is there a way around this?"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I have created a formula column that I would like to include in an automated email. However, in the automation settings for the email, the formula column is not included in the \"Auto populate items from this board\". Am I doing something wrong?"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi, I'm trying to set up this excel formula (=D6-(D6*F6) in Monday with the use of a formula. \"D6\" and \"F6\" are both numbers colums. D6 is a regular numbercolum, and F6 is a %-colum. \n\nCan you please help me with the correct setup for the formula to work here? Thanks"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Board summarisation function error.\nas attachment shown, total average percentage should be [Billed Number Sum] 836 divided by [Billable Lot Sum] 862. otherwise it can be easily impacted by single value but with small portion."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2449013 \"sali\"\n\nHi Tal, how are you? I need your help with the formula\n\nI saw that you have the option of coloring rows or the cube itself, but I need a row to be automatically colored as soon as I write an actual creation time, let's say 11:30 p.m. and it is later than the planned creation time, I want it to be done in a certain color and this does not happen to me, there is a way to build Is it in the formula?\n\nסאלי חליף | מנהל צוות תפעול מחלקת לוגיסטיקה\n\nקוקה קולה בני ברק 03-6712274, 054-9002860"
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Quisiera saber si hay alguna manera que en el final de una columna de tipo fórmula, donde puedo seleccionar una función de Promedio, Total, etc. se pudiera configurar una fórmula también."
+        },
+        "expected_output": {
+            "possible_categories": "feedback"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2481472 \"Problem sharing formular co...\"\n\nHi, has there been any progress on this?\n\nBest\n\nAndre\n\nMSXI Scanned E-mail – CAUTION: This e-mail originated outside our organization. Do not click links or open attachments unless you recognize the sender and have verified the content is safe."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Forecast value formula isn't working with multiple subitems and their Average of 'percentage chance of win'."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I am not able to use the formula columns with multiple mirrored columns. Please try to update the formula column so it can support mirrored columns."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello,\n\nWe need a Formula to convert data in BeginHour to automatically create Begin Hour 15:42 the same applies for EndHour to be End Hour 20:14\n\nPlease can we have help with either a formula or automation that would automatically correct the time format.\n\nWe also would then need to hide the original BeginHour EndHour columns.\n\nThank you in advance.\n\nKind regards \n\nJonathan Kingscott"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi support,\n\nI'm currently playing around with formulas and I noticed that it doesn't seem possible to end a text string with a backslash and use the column in a formula that uses more than only the column itself. I'm not sure why that is and wanted to check with you if there's a particular reason the formula column behaves like this.\n\nSee the attached video for examples of the issue I'm explaining.\n\nIs this a bug?\n\nThank you for your help!"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hey, some formula columns don't show anything on iOS mobile app.\nThey do show the data on the web, and it's the same user on both the web and on mobile.\nWhat's the reason for it?\nI tried creating a new board to test but the same issue persists.\nSee attached screenshots from mobile & web browser."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Set formula button not shown. It looks like its being obstructed by how big the formula box is. Unable to scroll down or the formula box will vanish. Tried moving task bar but does not work. Using google chrome and changed to edge but button is still obstructed."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "The formula function ISOWEEKNUM is incorrect.\n\nISO weeks are always Monday to Sunday. ISO week 1 is the week with the first thursday.\n\nAs such,  January 2, 2023 is the start of ISO week 1. However the formula column calculates it as ISO week 52, and only switches to ISO week 1 on Tuesday January 3, 2023."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I set up the Formula column to display the data. On the same system from my login (tooltreck), the data in this column is reflected correctly, the client is not displayed. Screenshots in attachment"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 447833684108 \nCompany Size: 20-49\nMessage: Hi, We use a formula to calculate our monthly management accounts for the last month, run across multiple boards so we have it in many places. Being Jan, it now doesn't seem to work...\nIF(AND({Predicted Category}=\"Internal Resources\",(MONTH({Date})-MONTH(TODAY()))=-1),{Budget Cost},0)\n\nWe've troubled shot this on the community and help pages and it seems it must be a bug.\n\nPlease advise ASAP today, we need to pull our financials so this is high importance for us."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "hi Support. Our automations does not seem to work at all, which they did last week. Is there a system problem or..?\n\nBest Regards MetierWestergaard / Louise"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Bug Report:\nMonday ver.: Web version\nBrowser: Google Chrome ver. 110.0.5481.100\nBug description:\nThe first time I enter any board in any of our company's boards I can modify any formula type column, however trying to modify any formula after that results in the website 'resetting' ,meaning that the browser window will auto-scroll to the top-left corner, and not showing the formula edit window\nDoes the bug happen to the other team members?\nThis bug occurs to every team member in our company"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi There\n\nI have a formula column on my work calendar that sums the total of two other formula columns that calculate hours_diff.\n\nThis works fine on my desktop computer but when i login on my Iphone or Ipad app the columns are blank and do nothing.\n\nI have attached screenshots.\n\nPlease advise."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2467279 \"Monday Pei AM: Fallas de vi...\"\n\nHola Aldo,\n\nEstuve probando la solución del correo anterior pero no me funcionó. Adjunto una captura de pantalla del caso.\n\nQuedo atento a otra solución, feliz día,\n\nJulian Eduardo Plata Osorio\n\nProfesional en Entrenamiento de Estrategia\n\njplata@pei.com.co"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "when I enter a first and last name to be parse in the app, both the first and last name fields display the first name.\n                \n                App: monday - v4.102.0\nOS: Android\nDevice: google:Pixel 6:API-33\nUser ID: 35412799\nLogin Permission: yes\nReported by: steven@csgaragefloors.com\nReported From: more"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "This is a follow-up to your previous request #2503665 \"I set up the Formula column to\"\n\nHi Jose!\n\nThanks for your input, but the problem is still here, and my client uses Russian. I would like to see a release with the solution soon. =)\n\nчт, 23 февр. 2023 г. в 16:03, monday.com :"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "צוות תמיכה שלום,\n\n \n\nהגדרנו נוסחאות במסך פורטפוליו (כמו ימי איחור למשל):\n\n \n\n \n\nישנם משתמשים מסוימים להם הנוסחה מראה שגיאה, ואצל אחרים זה עובד, למה זה קורה?\n\n \n\n\n\n \n\nנשלח מה-iPhone שלי\n\n\n \n\n--\n\nTomer Sade\n\nCustomer Success Manager | monday.com (https://urldefense.proofpoint.com/v2/url?u=http-3A__monday.com_&d=DwMFaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=Ivrw7ZJRwQ9G-r50ydnHs9KrNR7Oj6w5FiwbbLeAw-4&m=M8l69T5dXn1KXlGtYwX08TlyqAUtftbcHdv9NWJPJWs&s=vUePWx80FmwZACRmJZai3PsN6Gri30OUH7Ngl8j6xbs&e=)  | Linkedin (https://urldefense.proofpoint.com/v2/url?u=https-3A__www.linkedin.com_in_tomersade1_&d=DwMFaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=Ivrw7ZJRwQ9G-r50ydnHs9KrNR7Oj6w5FiwbbLeAw-4&m=M8l69T5dXn1KXlGtYwX08TlyqAUtftbcHdv9NWJPJWs&s=QoV81kCdRjC5YKPxd0I9UN8HXiCFuxV85eB7_3kTucg&e=)"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hello, I have a formula field in our Aspire Projects board that is simply a \"repeater\" field. The Budget field is just equal to the Est. Hours field. In the web interface, the formula works correctly, but in the mobile app, the field is showing workdays instead of hours, as it should. Screenshots are attached."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Board created but the formulas are showing a weird icon. Please see attached"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I am also facing an issue with subitem formulas. I am getting an error message that says “Formula with multiple mirrored values is not currently supported”, but there is only one mirrored value and it works in another column.\n\nThis issue is happening on all items connected to one board.\nThe board URL: https://unumgroup.monday.com/boards/3393130451 (https://unumgroup.monday.com/boards/3393130451)"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "As formulas não funcionam na app movel, no computador funciona bem, mas ao abrir o quadro na app movel há bug. ver print A formula na coluna acerto está bem(Edivar-Helena), mas depois na coluna total de gasto repete-se o mesmo, quando a formula é (Edivar+Helena). No computador as formulas funcionam bem mas na app movel mostra isto\n                \n                App: monday - v4.102.0\nOS: Android\nDevice: samsung:SM-A225F:API-33\nUser ID: 25215051\nLogin Permission: yes\nReported by: edivarmascarenhas@gmail.com\nReported From: more"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Phone: 19097429249 \nCompany Size: 50-99\nMessage: Hi,\n\nI'm seeing discrepancies in what I see in the calculated columns on monday.com and what I see on my app. The \"total commitments\" column in the App shows $515,000 whereas the total online shows $355,000\n\nHere's the link to the board: https://rise48equity.monday.com/boards/3847013677\n\nCan you help me understand why the app is not updated? This is causing real issues for us."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "When I try to create or change a formula, it won't let me. It takes me back to the beginning of the board. So it's not working at all. On occasion it will work, but mostly it's not. I don't know how to upload the file but it's the \"Sales Tracking List\" board. Please help ASAP! Thanks."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "On this Monday board: https://captego.monday.com/boards/3683718253/views/85715275I have a formula column with this formula in it: IF(AND({Status}=\"7 - Won\",{Lifespan (Days)}>0,{ARR (€)}>0),ROUND(({ARR (€)}/365)*{Lifespan (Days)},0),0)For some reason, some of the items are giving me an answer, and some items are giving an error symbol which says some parameters are invalid. The answer should be zero for all those with this error message. It's broken. Please fix it?"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "When I view my board everything is working properly but when someone else opens one column is not working. It says the subitem does not exist."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi support,\n\nI'm currently playing around with formulas and I noticed that it doesn't seem possible to end a text string with a backslash and use the column in a formula that uses more than only the column itself. I'm not sure why that is and wanted to check with you if there's a particular reason the formula column behaves like this.\n\nSee the attached video for examples of the issue I'm explaining.\n\nIs this a bug?\n\nThank you for your help!"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi, \nI have a formula column that works great on desktop, but for some reason it shows different results on mobile.\nwhy is that?"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "A strange error return for a formulae that is working for all items, except one. \nA screen shot is attached, and a permission to enter the account is granted."
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "I never got back from your team since yesterday. Here is a video explaining the problem:\n\nhttps://www.loom.com/share/141f6bf70b494a02a6d7602357442729"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "how_to",
+                "feedback",
+                "bugs"
+            ],
+            "input_text": "Hi Support,\n\nPlease be informed that we are experiencing some weird behavior on the monday.com formula.\nIf you might notice on the below screenshot that the last items do not have %.\nI tried to open the board in new incognito but we are experiencing the same.\nKindly check and let us know.\n\n\n\n[cid:246b5b7d-41ae-4321-be24-dbfb296d537a]\nRegards,"
+        },
+        "expected_output": {
+            "possible_categories": "bugs"
+        }
+    }
+]

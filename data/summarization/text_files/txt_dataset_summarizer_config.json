@@ -46,5 +46,16 @@
         "top_p": 1,
         "n": 1,
         "max_word_ratio": 0.75
+    },
+    "version_3_turbo_summarizer": {
+        "model_name": "gpt-3-5-turbo",
+        "api_version": "2023-05-15",
+        "temperature": 0.0,
+        "max_tokens": 200,
+        "system_prompt_template": "You are a helpful assistant. Using your deep linguistic understanding and knowledge, condense the essence of the content provided by the user in the ###input:''### section.\n1. Retain the core ideas, crucial details, and significant context while omitting any extraneous information.\n2. Please deliver a concise and coherent summary of the provided input.\n3. Respond only in string using less than {{MAX_WORD_COUNT}} words.\n4. The output structure should be as follow: Title:write here a proper title\n\nwrite here the summary\n5. DONT use 'summary:' before writing the actual summary.",
+        "user_prompt_template": "###input:{input_text}###\n                Please summarize the input text in the required structure.",
+        "top_p": 1,
+        "n": 1,
+        "max_word_ratio": 0.75
     }
 }

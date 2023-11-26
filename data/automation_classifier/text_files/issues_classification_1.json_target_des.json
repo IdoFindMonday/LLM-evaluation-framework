@@ -1,0 +1,474 @@
+[
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The actual SP value is not updated after the task is marked as done.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The 'Estimated SP' for this task is missing, causing ambiguity in task completion assessment.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task was unplanned and completed without recording an estimated or actual Story Points value. This could make it more difficult to plan and manage future tasks.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task 'CI Flaky Tests - always randomize account slug' is waiting for review but lacks an estimation. Plus, the task is 'Unplanned', which could imply it might not be completed within this sprint reaching 2023-08-12.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": [
+                "stuck task",
+                "missing information"
+            ]
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task is in 'Pending Deploy' status but lacks the designated owner. This can lead to responsibility disputes or delays, especially as the task is unplanned and can disrupt the closing timeline for the sprint.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": [
+                "stuck task",
+                "missing information"
+            ]
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The type of the task is non-informative and may lead to misunderstandings of its nature.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "other"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "Multiple owners assigned to a single item, it could lead to confusion and lackadaisical attitude towards the task.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "other"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task might not be completed by the end of the project's sprint.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "overdue task"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The issue is there is no assigned owner to the 'Replica lag' task.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The owner of this item is not specified. It's important to know who worked on a task in case any revisions or clarifications are needed in the future.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task is overdue. It was supposed to be completed within 1 day after it started but it's now 14 days overdue.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "overdue task"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "This task is behind schedule. It was supposed to be completed in the current sprint but has been moved to the next sprint and not started yet, which may affect the upcoming sprint's planned tasks and overall project timeline.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "overdue task"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task has been moved to the next sprint when the current sprint isn't completed, indicating that the task is behind schedule.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "overdue task"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task has not yet started even though the deadline is approaching.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": [
+                "overdue task",
+                "other"
+            ]
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "the task has no priority and is not assigned to anyone.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task has not been started and the status is not updated while the project's sprint is about to end in 2 days.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": [
+                "overdue task",
+                "missing information"
+            ]
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The 'Actual SP' field is missing for the completed task.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The status of a high priority task (item_page invalid compare_attributes - debug & talk to Anya/Shlomi) is not updated and we are close to the sprint deadline.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task's status is not updated and considering its high priority with only two days left in the sprint, it is concerning if the task will be completed on time.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": [
+                "missing information",
+                "overdue task",
+                "stuck task"
+            ]
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task is pending deployment with less than 48 hours remaining in the sprint, which might not leave enough time to address any immediate post-deployment issues.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "stuck task"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task was marked as completed, but the Actual SP (Story Point) is not provided. Therefore, it's unclear how much time it took to complete this task.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "This task is possibly delayed as it has taken 7 days whereas the estimated time was only 2 days.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "overdue task"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The issue is that the 'Actual SP' is null for a task marked as 'Done' which indicates that we don't have a record of how many days it took to complete this task.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task is a high priority task, yet it has not started and the sprint is due to finish in just 2 days.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "overdue task"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The task 'pagination for linked items - will create breaking change later' is set as a high priority task but it was moved to the next sprint. Considering today's date and the end date of the sprint, this task won't be delivered in the current sprint.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": [
+                "other",
+                "overdue task"
+            ]
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The Actual SP value for this completed task is null, marking the task as done without reflecting the number of days it took could cause inaccurate future planning.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The 'Actual SP' for the task is missing. This information is crucial to evaluate the actual effort spent on the task and to improve the accuracy of estimating future tasks.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The 'critical' priority task is without a designated owner.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "missing information"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "The critical task hasn't been started and is at risk of not being completed by the end of the current sprint.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": "overdue task"
+        }
+    },
+    {
+        "inp": {
+            "categories_list": [
+                "missing information",
+                "overdue task",
+                "stuck task",
+                "other"
+            ],
+            "input_text": "A critical priority task has been moved to the next sprint. This could affect the successful delivery of the project within the desired timeline.",
+            "target_column_description": " \"Missing Information\": pertains to situations where essential details are absent, calling for more research or clarification.\n\"Overdue Task\": refers to works that have surpassed their deadline and need immediate action.\n\"Stuck Task\": is a task that cannot progress due to challenges, requiring solutions to move forward.\n\"Other\": includes any other scenarios not covered by the previous categories."
+        },
+        "expected_output": {
+            "possible_categories": [
+                "overdue task",
+                "other"
+            ]
+        }
+    }
+]

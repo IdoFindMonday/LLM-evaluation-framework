@@ -127,7 +127,7 @@ class OpenaiChatCompletionWordLimit(OpenaiChatCompletionBase):
         return output_text, response
 
 
-class OpenaiChatCompletionRephraser(OpenaiChatCompletionBase):
+class OpenaiChatCompletionNRephraser(OpenaiChatCompletionBase):
     def __init__(self, model_name="gpt-3-5-turbo", api_version="2023-05-15", temperature=0.0, max_tokens=200,
                  system_prompt_template="", user_prompt_template="", localization_prompt_template="", style='casual',
                  n_paraphrase=1):
@@ -142,9 +142,82 @@ class OpenaiChatCompletionRephraser(OpenaiChatCompletionBase):
             'language_input': localization_prompt,
             'style': self.style,
             'n_paraphrase': self.n_paraphrase
-
         }
         return self.system_prompt_template.format(**system_args)
+
+    def call_llm(self, input_text):
+        system_prompt = self.set_system_prompt(input_text)
+        user_prompt = self.user_prompt_template.format(**{'input_text': input_text})
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self._get_response(messages)
+        output_text = response["choices"][0]["message"]["content"].strip()
+        return output_text
+
+    def call_llm_with_res(self, input_text):
+        system_prompt = self.set_system_prompt(input_text)
+        user_prompt = self.user_prompt_template.format(**{'input_text': input_text})
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self._get_response(messages)
+        output_text = response["choices"][0]["message"]["content"].strip()
+        return output_text, response
+
+class OpenaiChatCompletionRephraser(OpenaiChatCompletionBase):
+    def __init__(self, model_name="gpt-3-5-turbo", api_version="2023-05-15", temperature=0.0, max_tokens=200,
+                 system_prompt_template="", user_prompt_template="", localization_prompt_template="", style='casual'):
+        super().__init__(model_name, api_version, temperature, max_tokens, system_prompt_template, user_prompt_template)
+        self.localization_prompt_template = localization_prompt_template
+        self.style = style
+
+    def set_system_prompt(self, text):
+        localization_prompt = self.localization_prompt_template.format(**{'input_text': text[:30]})
+        system_args = {
+            'language_input': localization_prompt,
+            'style': self.style,
+        }
+        return self.system_prompt_template.format(**system_args)
+
+    def call_llm(self, input_text):
+        system_prompt = self.set_system_prompt(input_text)
+        user_prompt = self.user_prompt_template.format(**{'input_text': input_text})
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self._get_response(messages)
+        output_text = response["choices"][0]["message"]["content"].strip()
+        return output_text
+
+    def call_llm_with_res(self, input_text):
+        system_prompt = self.set_system_prompt(input_text)
+        user_prompt = self.user_prompt_template.format(**{'input_text': input_text})
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ]
+        response = self._get_response(messages)
+        output_text = response["choices"][0]["message"]["content"].strip()
+        return output_text, response
+
+class OpenaiChatCompletionRephraserNoTone(OpenaiChatCompletionBase):
+    def __init__(self, model_name="gpt-3-5-turbo", api_version="2023-05-15", temperature=0.0, max_tokens=200,
+                 system_prompt_template="", user_prompt_template="", localization_prompt_template=""):
+        super().__init__(model_name, api_version, temperature, max_tokens, system_prompt_template, user_prompt_template)
+        self.localization_prompt_template = localization_prompt_template
+
+    def set_system_prompt(self, text):
+        if self.localization_prompt_template:
+            localization_prompt = self.localization_prompt_template.format(**{'input_text': text[:30]})
+            system_args = {
+                'language_input': localization_prompt,
+            }
+            return self.system_prompt_template.format(**system_args)
+        return self.system_prompt_template
 
     def call_llm(self, input_text):
         system_prompt = self.set_system_prompt(input_text)

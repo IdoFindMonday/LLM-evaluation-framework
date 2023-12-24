@@ -1,0 +1,127 @@
+[
+    {
+        "inp": {
+            "user_instructions": "Generate a completion note for the task {Task Description} finished by {Task Owner} on {Date Completed}",
+            "placeholders_mapping": {
+                "Task Description": "Conduct security audit",
+                "Task Owner": "Jim Wang",
+                "Date Completed": "January 5th, 2023"
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Create an automatic comment stating that {Assigned User} was assigned to work on {Task Description} by {Created By}",
+            "placeholders_mapping": {
+                "Assigned User": "Mary Lee",
+                "Task Description": "Update billing system",
+                "Created By": "Michelle Johnson"
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Compose an email to {Client Name} to follow up on the order {Order ID} delivery status",
+            "placeholders_mapping": {
+                "Client Name": "Acme Inc.",
+                "Order ID": "A12BC3"
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Create a ticket assigned to {Technician} with issue description {Issue Description} opened by customer {Customer Name}",
+            "placeholders_mapping": {
+                "Technician": "Jane Doe",
+                "Issue Description": "Payment processing error",
+                "Customer Name": "XYZ LLC"
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Draft first section of operations manual for new process {Process Title}",
+            "placeholders_mapping": {
+                "Process Title": "Inventory receiving procedures"
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Compose memo to {Manager Name} recommending general ideas to improve {Department Function}",
+            "placeholders_mapping": {
+                "Manager Name": "Jane Doe",
+                "Department Function": "customer service response time"
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Create a help desk ticket for {User} who's having issues with {Software}",
+            "placeholders_mapping": {
+                "User": "Alex",
+                "Software": "the printer"
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Generate an email to {Customer Name} based on: {Issue Description} and {Resolution Details}",
+            "placeholders_mapping": {
+                "Customer Name": "Alice Smith",
+                "Issue Description": "Problem logging into account",
+                "Resolution Details": "Your password has been reset. You can now log in with your new password."
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Analyze the following meeting notes and generate a list of actionable items: {Meeting Notes}",
+            "placeholders_mapping": {
+                "Meeting Notes": "Topic: Project X Launch Timeline\nDate: 2023-12-20\nAttendees: John Smith, Jane Doe, Bob Johnson\nDiscussion:\n- Reviewed current deadlines for each project milestone.\n- Identified potential delays due to resource constraints.\n- Brainstormed solutions to mitigate delays and maintain launch date.\nDecisions:\n- Prioritize development of core features for initial launch.\n- Allocate additional resources to critical tasks.\n- Investigate outsourcing non-essential tasks."
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "Generate a project plan with milestones and deadlines based on the information in the '{Goals}', '{Requirements}', and '{Project Duration}' columns. Assume an {Estimated Timeframe} for completion.",
+            "placeholders_mapping": {
+                "Project Name": "New Website Design",
+                "Goals": "Improve user experience, increase conversion rates",
+                "Requirements": "Responsive design, updated content, streamlined checkout process",
+                "Project Duration": "sprint",
+                "Estimated Timeframe": "2 weeks"
+            }
+        },
+        "expected_output": {
+            "final_answer": ""
+        }
+    }
+]

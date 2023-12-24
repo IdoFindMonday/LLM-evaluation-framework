@@ -1,0 +1,1502 @@
+[
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "I want you to decide on the status of:{input_text} based on the possible categories in:{categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    }
+]

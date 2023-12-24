@@ -1,0 +1,1502 @@
+[
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    },
+    {
+        "inp": {
+            "user_instructions": "classify the text in {input_text} into one of the labels in {categories_list}",
+            "placeholders_mapping": {
+                "categories_list": [
+                    "Feature request",
+                    "Bug"
+                ],
+                "input_text": "I'd love to have an option to save multiple drafts in the app!"
+            }
+        },
+        "expected_output": {
+            "final_answer": "Feature request"
+        }
+    }
+]
